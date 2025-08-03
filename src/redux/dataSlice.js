@@ -133,7 +133,22 @@ const initialState = {
   categories: ["Nhà phố","Building",]
   },
   {
-  ma: "8",
+ma: "8",
+proName: "Nhà Phố",
+title: "119 Lý Tự Trọng",
+address: "119 Lý Tự Trọng, Phường Phường Bến Thành (Quận 1 cũ), TP HCM",
+dienTich: "Ngang 5,1m x Dài 20,15m m, Công nhận 88,6m², DTS m²",
+ketCau: "3 tầng",
+giaBan: "120 tỷ",
+hopDong: "200 Triệu/tháng",
+huong: "Tây Bắc",
+phapLy: "Cá Nhân",
+viTri: "Lý Tự Trọng với Thủ Khoa Huân",
+allPhoto: ["119ltt1.png","119ltt2.png","119ltt3.png","119ltt4.png"],
+categories: ["Nhà phố","Building"]
+},
+  {
+  ma: "9",
   proName: "Khách sạn Quận 1",
   title: "18 Bùi Thị Xuân",
   address: "18 Bùi Thị Xuân, Phường Phường Bến Thành (Quận 1 cũ), TP HCM",
