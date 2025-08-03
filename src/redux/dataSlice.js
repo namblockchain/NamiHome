@@ -134,7 +134,7 @@ const initialState = {
   },
   {
 ma: "8",
-proName: "Nhà Phố",
+proName: "NHÀ MẶT TIỀN LÝ TỰ TRỌNG",
 title: "119 Lý Tự Trọng",
 address: "119 Lý Tự Trọng, Phường Phường Bến Thành (Quận 1 cũ), TP HCM",
 dienTich: "Ngang 5,1m x Dài 20,15m m, Công nhận 88,6m², DTS m²",
