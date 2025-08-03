@@ -69,7 +69,7 @@ const initialState = {
   huong: "Tây Bắc",
   phapLy: "Cá nhân",
   viTri: "Phan Kế Bính với Điện Biên Phủ",
-  allPhoto: ["btpkb_1.jpg","btpkb_2.jpg","btpkb_3.jpg","btpkb_4.jpg",""],
+  allPhoto: ["btpkb_2.jpg","btpkb_3.jpg","btpkb_4.jpg",""],
   categories: ["Biệt thự"]
   },
    {
