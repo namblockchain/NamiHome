@@ -44,7 +44,8 @@ import React, { useEffect, useState } from "react";
 import TopMenu from "../components/TopMenu";
 import { useSelector } from "react-redux";
 import "./blog.scss"; // Thêm file CSS mới
-import ResponsivePDF from "../components/ResponsivePDF";
+// import ResponsivePDF from "../components/ResponsivePDF";
+import PDFViewer from "../components/PDFViewer";
 
 const Blog = () => {
   const { baiPhanTich } = useSelector((state) => state.dataSlice);
@@ -87,7 +88,8 @@ const Blog = () => {
         //     className="responsive-iframe"
         //   />
         // </div>
-        <ResponsivePDF fileUrl={`/pdf/${openPhanTich}`} />
+        // <ResponsivePDF fileUrl={`/pdf/${openPhanTich}`} />
+        <PDFViewer fileUrl={`/pdf/${openPhanTich}`} />
       )}
     </div>
   );
