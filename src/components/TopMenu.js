@@ -14,44 +14,51 @@ const TopMenu = ({ data }) => {
   useEffect(() => {
     if (!data) {
       const handleScroll = () => {
-        setShowMenu(window.scrollY > 60);
+        setShowMenu(window.scrollY > 60); // Adjust the height based on scroll position
       };
 
       window.addEventListener("scroll", handleScroll);
-
       return () => window.removeEventListener("scroll", handleScroll);
     }
-  }, []);
+  }, [data]);
 
   return (
-    <div id="topMenu" style={{ height: showMenu ? "80px" : 0 }}>
-      <div className="bar" onClick={handleClickOpenMenu}>
-        <i className="fa-solid fa-bars"></i>
+    <div
+      id="topMenu"
+      style={{ height: showMenu ? "80px" : "0px" }} // Show/hide menu based on scroll position
+      className="transition-all ease-in-out bg-gray-800 text-white"
+    >
+      <div className="bar p-4" onClick={handleClickOpenMenu}>
+        <i className="fa-solid fa-bars text-xl"></i>
         Menu
       </div>
-      <div className="brandName">
+      <div className="brandName p-4 flex items-center">
         <NavLink to={"/"}>
-          {/* <h1>NAM</h1> */}
-          <img src=".././img/iconMenuB.png" alt="" />
-          <p>invest - realty</p>
+          <img
+            src="../img/iconMenuB.png" // Path to your logo image
+            alt="Brand Logo"
+            className="w-12 h-12"
+          />
+          <p className="ml-2">invest - realty</p>
         </NavLink>
       </div>
-      <div className="iconContact">
+      <div className="iconContact p-4 flex">
         <a
           href="https://www.facebook.com/NamiHome.Official/"
           target="_blank"
           rel="noopener noreferrer"
+          className="mr-4"
         >
-          <i className="fa-brands fa-facebook-f"></i>
+          <i className="fa-brands fa-facebook-f text-xl"></i>
         </a>
-        <a href="https://www.youtube.com/@namihomesaigon" target="_blank">
-          <i className="fa-brands fa-youtube"></i>
+        <a href="https://www.youtube.com/@namihomesaigon" target="_blank" className="mr-4">
+          <i className="fa-brands fa-youtube text-xl"></i>
         </a>
-        <a href="mailto:namihome.saigon@gmail.com">
-          <i className="fa-solid fa-envelope"></i>
+        <a href="mailto:namihome.saigon@gmail.com" className="mr-4">
+          <i className="fa-solid fa-envelope text-xl"></i>
         </a>
-        <a href="tel:+84903052135">
-          <i className="fa-solid fa-phone"></i>
+        <a href="tel:+84903052135" className="mr-4">
+          <i className="fa-solid fa-phone text-xl"></i>
         </a>
       </div>
     </div>

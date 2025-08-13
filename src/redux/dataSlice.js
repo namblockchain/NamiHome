@@ -90,8 +90,8 @@ const initialState = {
    {
   ma: "5",
   proName: "NHÀ MẶT TIỀN NGUYỄN KHẮC NHU",
-  title: "25-27 Nguyễn Khắc Như",
-  address: "25-27 Nguyễn Khắc Như, Phường Cầu Ông Lãnh (Cô Giang Q1cũ), TP HCM",
+  title: "25-27 Nguyễn Khắc Nhu",
+  address: "25-27 Nguyễn Khắc Nhu, Phường Cầu Ông Lãnh (Cô Giang Q1cũ), TP HCM",
   dienTich: "Ngang 11m x Dài 29m, Công nhận 290,3m², DTS 600m²",
   ketCau: "3Tầng",
   giaBan: "185 tỷ",
@@ -176,7 +176,7 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Công Trường Quốc Tế với Trần Cao Vân",
   allPhoto: ["10.1.jpg","10.2.jpg","10.3.jpg","10.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "11",
@@ -192,7 +192,7 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Bùi Thị Xuân với Cách Mạng Tháng Tám",
   allPhoto: ["11.1.jpg","11.2.jpg","11.3.jpg","11.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+map: ""
  },
  {
   ma: "12",
@@ -208,14 +208,14 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Cách Mạng Tháng 8, với Lê Thị Riêng",
   allPhoto: ["12.1.jpg","12.2.jpg","12.3.jpg","12.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "13",
   proName: "TOÀ NHÀ VĂN PHÒNG",
   title: "11Bis Nguyễn Gia Thiều",
   address: "11Bis Nguyễn Gia Thiều, Phường Xuân Hoà (VTS, Quận 3 cũ), TP HCM",
-  dienTich: "Ngang 26m x Dài 39m , Công nhận 995m², DTS 4826m²",
+  dienTich: "Ngang 26m x Dài 39m, Công nhận 995m², DTS 4826m²",
   ketCau: "Hầm 10 tầng",
   giaBan: "700 tỷ",
   hopDong: "1,2 tỷ/tháng",
@@ -224,7 +224,7 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Nguyễn Gia Thiều, với Nguyễn Đình Chiểu",
   allPhoto: ["13.1.jpg","13.2.jpg","13.3.jpg","13.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
   {
   ma: "14",
@@ -240,7 +240,7 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Bùi Thị Xuân, với Tôn Thất Tùng",
   allPhoto: ["14.1.jpg","14.2.jpg","14.3.jpg","14.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "15",
@@ -256,7 +256,23 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Nguyễn Văn Trồi, với Hoàng Văn THụ",
   allPhoto: ["15.1.jpg","15.2.jpg","15.3.jpg","15.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
+ },
+ {
+  ma: "16",
+  proName: "TOÀ NHÀ VĂN PHÒNG",
+  title: "11Bis Huỳnh Tịnh Của",
+  address: "11Bis Huỳnh Tịnh Của, Phường Xuân Hoà (P. 7 Quận 3 cũ), TP HCM",
+  dienTich: "Ngang 13,6m x Dài 31,6m,Thóp hậu 10m, Công nhận 399,3m², DTS 399,3m²",
+  ketCau: "2tầng, GPXD 10 tầng",
+  giaBan: "238 tỷ",
+  hopDong: " Trống Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Huỳnh Tịnh Của, với Trần Quốc Toản ",
+  allPhoto: ["16.1.jpg","16.2.jpg","16.3.jpg","16.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
  },
  {
   ma: "17",
@@ -272,14 +288,14 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Lý Chính Thắng, với Nam Kỳ Khởi Nghĩa",
   allPhoto: ["17.1.jpg","17.2.jpg","17.3.jpg","17.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "18",
   proName: "TOÀ NHÀ VĂN PHÒNG",
   title: "485 Tô Ngọc Vân",
   address: "485 Tô Ngọc Vân, Phường Tam Bình (Tam Phú,TP Thủ Đức cũ), TP HCM",
-  dienTich: "Ngang 14m x Dài 38m, Công nhận 501.1m² , DTS 2.000m²",
+  dienTich: "Ngang 14m x Dài 38m, Công nhận 501.1m², DTS 2.000m²",
   ketCau: "Hầm 4 tầng",
   giaBan: "95 tỷ",
   hopDong: "306 Triệu/tháng",
@@ -288,14 +304,14 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Tô Ngọc Vân, với Phú Châu",
   allPhoto: ["18.1.jpg","18.2.jpg","18.3.jpg","18.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "19",
   proName: "TOÀ NHÀ VĂN PHÒNG",
   title: "369B Nguyễn Trãi ",
   address: "369B Nguyễn Trãi , Phường Cầu Ông Lãnh (Nguyễn Cư Trinh, Quận 1 cũ), TP HCM",
-  dienTich: "Ngang 15m x Dài 30m, Công nhận 386,5m² , DTS 2.700m²",
+  dienTich: "Ngang 15m x Dài 30m, Công nhận 386,5m², DTS 2.700m²",
   ketCau: "2 Hầm 10 tầng",
   giaBan: "450tỷ",
   hopDong: "1 tỷ 052 Triệu/tháng",
@@ -304,14 +320,14 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Nguyễn Trãi, với Nguyễn Văn Cừ",
   allPhoto: ["19.1.jpg","19.2.jpg","19.3.jpg","19.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "20",
   proName: "TOÀ NHÀ VĂN PHÒNG",
   title: "4B Tôn Đức Thắng",
   address: "4B Tôn Đức Thắng, Phường Sài Gòn (Bến Nghé, Quận 1 cũ), TP HCM",
-  dienTich: "Ngang 10,2m x Dài 32m ), Công nhận 326m² , DTS  2938m²",
+  dienTich: "Ngang 10,2m x Dài 32m, Công nhận 326m², DTS  2938m²",
   ketCau: "2 Hầm 10 tầng",
   giaBan: "450tỷ",
   hopDong: "1 tỷ 400 Triệu/tháng",
@@ -320,14 +336,14 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Tôn Đức Thắng, với Đinh Tiên Hoàng",
   allPhoto: ["20.1.jpg","20.2.jpg","20.3.jpg","20.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "21",
-  proName: "BIỆT THỰ",
+  proName: "BIỆT THỰ LAN ANH VILLAGE",
   title: "C6 Lan Anh Village, Khu Đô Thị Thủ Thiêm",
   address: "C6 Lan Anh Village, Khu Đô Thị Thủ Thiêm, Phường An Khánh (P. cũ: Thủ Thiêm), TP. Thủ Đức, TP.HCM",
-  dienTich: "Ngang 15m x Dài 24,9m , Công nhận 372,8m² , DTS 217,2m²",
+  dienTich: "Ngang 15m x Dài 24,9m, Công nhận 372,8m², DTS 217,2m²",
   ketCau: "3 tầng",
   giaBan: "200tỷ",
   hopDong: "140 Triệu/tháng",
@@ -336,14 +352,14 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường C6 Lan Anh Village, Khu Đô Thị Thủ Thiêm",
   allPhoto: ["21.1.jpg","21.2.jpg","21.3.jpg","21.4.jpg"],
   categories: ["Nhà phố","Biệt thự"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "22",
   proName: "CĂN HỘ DỊCH VỤ",
   title: "42/4 Hồ Hảo Hớn",
   address: "42/4 Hồ Hảo Hớn, Phường Cầu Ông Lãnh (P. Cô Giang, Quận 1 cũ), TP.HCM",
-  dienTich: "Ngang 5,43m x Dài 22,19m , Công nhận 323,2m² , DTS 884,4m²",
+  dienTich: "Ngang 5,43m x Dài 22,19m, Công nhận 323,2m², DTS 884,4m²",
   ketCau: "5 tầng",
   giaBan: "140 ỷ",
   hopDong: "1 tỷ/tháng",
@@ -352,30 +368,30 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Hồ Hảo Hớn, với Cô Giang",
   allPhoto: ["22.1.jpg","22.2.jpg","22.3.jpg","22.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "23",
-  proName: "Biệt thự Nguyễn Thông",
+  proName: "BIỆT THỰ NGUYỄN THÔNG",
   title: "8 Nguyễn Thông",
   address: "8 Nguyễn Thông, Phường Xuân Hoà (P.VTS, Quận 3 cũ), TP.HCM",
-  dienTich: "Ngang 15m x Dài 26m , Công nhận 341m² , DTS 1136,60m²",
+  dienTich: "Ngang 15m x Dài 26m , Công nhận 341m²  DTS 1136,60m²",
   ketCau: "Hầm 6 tầng",
-  giaBan: "350 ỷ",
+  giaBan: "250 tỷ",
   hopDong: "chủ đang ở tỷ/tháng",
   huong: "Tây Nam",
   phapLy: "Cá nhân",
   viTri: "Giữa đường Nguyễn Thông, với Điện Biên Phủ",
   allPhoto: ["23.1.jpg","23.2.jpg","23.3.jpg","23.4.jpg"],
   categories: ["Nhà phố","Biệt thự"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "24",
   proName: "TOÀ NHÀ VĂN PHÒNG",
   title: "59 Ngô Thời Nhiệm",
   address: "59 Ngô Thời Nhiệm, Phường Xuân Hoà (P.VTS, Quận 3 cũ), TP.HCM",
-  dienTich: "Ngang 6m x Dài 15m , Công nhận 90m² , DTS 500m²",
+  dienTich: "Ngang 6m x Dài 15m , Công nhận 90m², DTS 500m²",
   ketCau: "Hầm 6 tầng",
   giaBan: "76 tỷ",
   hopDong: "120 Triệu/tháng",
@@ -384,14 +400,14 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Ngô Thời Nhiệm, với Bà Huyện Thanh Quan",
   allPhoto: ["24.1.jpg","24.2.jpg","24.3.jpg","24.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
  },
  {
   ma: "25",
   proName: "TOÀ NHÀ VĂN PHÒNG",
   title: "569 Nguyễn Đình Chiểu",
   address: "569 Nguyễn Đình Chiểu, Phường Bàn Cờ (P.2, Quận 3 cũ), TP.HCM",
-  dienTich: "Ngang 8,41m x Dài 9,55m , Công nhận 75,6m² , DTS 430m²",
+  dienTich: "Ngang 8,41m x Dài 9,55m, Công nhận 75,6m², DTS 430m²",
   ketCau: "8 tầng",
   giaBan: "78 tỷ",
   hopDong: "140 Triệu/tháng",
@@ -400,7 +416,247 @@ categories: ["Nhà phố","Biệt thự"]
   viTri: "Giữa đường Nguyễn Đình Chiểu, với Nguyễn Thiện Thuật",
   allPhoto: ["25.1.jpg","25.2.jpg","25.3.jpg","25.4.jpg"],
   categories: ["Nhà phố","Building"],
-  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.269617709981!2d106.6988459!3d10.7906501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca96141627%3A0x41c7fdc05beaac35!2zMjAgUGhhbiBL4bq_IELDrW5oLCDEkGEgS2FvLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1753775690244!5m2!1svi!2s"
+  map: ""
+ },
+ {
+  ma: "26",
+  proName: "TOÀ NHÀ VĂN PHÒNG",
+  title: "100 Nguyễn Du",
+  address: "100 Nguyễn Du, Phường Sài Gòn (P.Bến Nghé, Quận 1 cũ), TP.HCM",
+  dienTich: "Ngang 11,75m x Dài 31m, Công nhận 364,2m², DTS 906,65m²",
+  ketCau: " Hầm 4 tầng, (Xây dựng trên 10 tầng)",
+  giaBan: "420 tỷ",
+  hopDong: "520 Triệu/tháng",
+  huong: "Đông Nam",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Nguyễn Du, với Nam Kỳ Khởi Nghĩa",
+  allPhoto: ["26.1.jpg","26.2.jpg","26.3.jpg","26.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "27",
+  proName: "TOÀ NHÀ VĂN PHÒNG",
+  title: "11 Nguyễn Huy Tưởng",
+  address: "11 Nguyễn Huy Tưởng, Phường Gia Định (P.6, Quận BT cũ), TP.HCM",
+  dienTich: "Ngang 12m x Dài 20m , Công nhận 227,2m², DTS 1500m²",
+  ketCau: " Hầm 7 tầng",
+  giaBan: "105 tỷ",
+  hopDong: "330 Triệu/tháng",
+  huong: "Đông",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Nguyễn Huy Tưởng, với Phan Đăng Lưu",
+  allPhoto: ["27.1.jpg","27.2.jpg","27.3.jpg","27.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+  {
+  ma: "28",
+  proName: "BIỆT THỰ TRẦN KHÁNH DƯ",
+  title: "7 Trần Khánh Dư,",
+  address: "7 Trần Khánh Dư, Phường Tân Định (P.Tân Định, Quận 1 cũ), TP.HCM",
+  dienTich: "Ngang 14,1m x Dài 26,05m, Công nhận 367m², DTS 500m²",
+  ketCau: " 3 tầng",
+  giaBan: "165 tỷ",
+  hopDong: "150 Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Trần Khánh Dư, với Hoàng Sa",
+  allPhoto: ["28.1.jpg","28.2.jpg","28.3.jpg","28.4.jpg"],
+  categories: ["Nhà phố","Biệt thự"],
+  map: ""
+ },
+ {
+  ma: "29",
+  proName: "KHÁCH SẠN LÊ THÁNH TÔN",
+  title: "42 Lê Thánh Tôn",
+  address: "42 Lê Thánh Tôn, Phường Sài Gòn (P.Bến Nghé, Quận 1 cũ), TP.HCM",
+  dienTich: "Ngang 4,4m x Dài 21m, Công nhận 92,4m², DTS 626,6m²",
+  ketCau: " Hầm 8 tầng",
+  giaBan: "120 tỷ",
+  hopDong: "240 Triệu/tháng",
+  huong: "Đông Nam",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Lê Thánh Tôn, với Thái Văn Lung",
+  allPhoto: ["29.1.jpg","29.2.jpg","29.3.jpg","29.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "30",
+  proName: "TOÀ NHÀ VĂN PHÒNG",
+  title: "290 Nam Kỳ Khởi Nghĩa",
+  address: "290 Nam Kỳ Khởi Nghĩa, Phường Xuân Hoà (P.8, Quận 3 cũ), TP.HCM",
+  dienTich: "Ngang 22m x Dài 16,8m, Công nhận 368m², DTS 4693,8m²",
+  ketCau: "2 Hầm 14 tầng",
+  giaBan: "715 tỷ",
+  hopDong: "1,58 tỷ/tháng",
+  huong: "Tây Nam",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Nam Kỳ Khởi Nghĩa, với Đặng Dung",
+  allPhoto: ["30.1.jpg","30.2.jpg","30.3.jpg","30.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "31",
+  proName: "TOÀ NHÀ VĂN PHÒNG",
+  title: "121 Võ Thị Sáu",
+  address: "121 Võ Thị Sáu, Phường Xuân Hoà (P.VTS, Quận 3 cũ), TP.HCM",
+  dienTich: "Ngang 14m x Dài 24m, Công nhận 347,2m², DTS 1200m²",
+  ketCau: "4 tầng, GPXD Hầm 10 tầng",
+  giaBan: "185 tỷ",
+  hopDong: "200 Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Võ Thị Sáu, với Pasteur",
+  allPhoto: ["31.1.jpg","31.2.jpg","31.3.jpg","31.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "32",
+  proName: "NHÀ MẶT TIỀN TRẦN QUỐC THẢO",
+  title: "125A Trần Quốc Thảo,",
+  address: "125A Trần Quốc Thảo, Phường Xuân Hoà (P.VTS, Quận 3 cũ), TP.HCM",
+  dienTich: "Ngang 14m x Dài 40m, Công nhận 534,3m², DTS 961m²",
+  ketCau: "Hầm 3 tầng",
+  giaBan: "350 tỷ",
+  hopDong: "400 Triệu/tháng",
+  huong: "Đông Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Trần Quốc Thảo, với Lý Chính Thắng",
+  allPhoto: ["32.1.jpg","32.2.jpg","32.3.jpg","32.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "33",
+  proName: "NHÀ MẶT TIỀN LÝ CHÍNH THẮNG",
+  title: "39 Lý Chính Thắng",
+  address: "39 Lý Chính Thắng, Phường Xuân Hoà (P.VTS, Quận 3 cũ), TP.HCM",
+  dienTich: "Ngang 4m x Dài 26m, Công nhận 102m², DTS 637.6m²",
+  ketCau: "8 tầng",
+  giaBan: "41 tỷ",
+  hopDong: "100 Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Lý Chính Thắng, với Nam Kỳ Khởi Nghĩa",
+  allPhoto: ["33.1.jpg","33.2.jpg","33.3.jpg","33.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "34",
+  proName: "NHÀ MẶT VÕ VĂN TẦN",
+  title: "291 Võ Văn Tần",
+  address: "291 Võ Văn Tần, Phường Bàn Cờ (P.5, Quận 3 cũ), TP.HCM",
+  dienTich: "Ngang 7,3m x Dài 13m, Nở hậu 9,5m, Công nhận 86,7m², DTS 637.6m²",
+  ketCau: "4 tầng",
+  giaBan: "65 tỷ",
+  hopDong: "180 Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Võ Văn, với Cách Mạng Tháng Tám",
+  allPhoto: ["34.1.jpg","34.2.jpg","34.3.jpg","34.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "35",
+  proName: "NHÀ MẶT 3 THÁNG 2 ",
+  title: "33-35 đường 3 Tháng 2",
+  address: "33-35 đường 3 Tháng 2, Phường Hoà Hưng (P.11, Quận 10 cũ), TP.HCM",
+  dienTich: "Ngang 18m x Dài 25m, Nở hậu 24m, Công nhận 499m², DTS 1300m²",
+  ketCau: "4 tầng",
+  giaBan: "350 tỷ",
+  hopDong: "300 Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường 3 tháng 2, với Cách Mạng Tháng Tám",
+  allPhoto: ["35.1.jpg","35.2.jpg","35.3.jpg","35.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "36",
+  proName: "NHÀ MẶT BÙI ĐÌNH TUÝ ",
+  title: "184 Bùi Đình Tuý,",
+  address: "184 Bùi Đình Tuý, Phường Bình Thạnh (P.12, Quận BT cũ), TP.HCM",
+  dienTich: "Ngang 6,2m x Dài 26,2m, Công nhận 165m², DTS 321m²",
+  ketCau: "Hầm 6 tầng",
+  giaBan: "45 tỷ",
+  hopDong: "130 Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Bùi Đình Tuý với Nơ Trang Long",
+  allPhoto: ["36.1.jpg","36.2.jpg","36.3.jpg","36.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "37",
+  proName: "NHÀ MẶT LƯƠNG HỮU KHÁNH",
+  title: "14 Lương Hữu Khánh",
+  address: "14 Lương Hữu Khánh, Phường Bến Thành (P.BT, Quận 1 cũ), TP.HCM",
+  dienTich: "Ngang 6m x Dài 22m, Nở hậu 6,9m, Công nhận 119m², DTS 623,4m²",
+  ketCau: "Hầm 9 tầng",
+  giaBan: "65 tỷ",
+  hopDong: "180 Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Lương Hữu Khánh với Nguyễn Trãi",
+  allPhoto: ["37.1.jpg","37.2.jpg","37.3.jpg","37.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "38",
+  proName: "NHÀ MẶT TÔ HIẾN THÀNH",
+  title: "185-185A Tô Hiến Thành",
+  address: "185-185A Tô Hiến Thành, Phường Hoà Hưng (P.13, Quận 10 cũ), TP.HCM",
+  dienTich: "Ngang 9,3m x Dài 25m, Thóp hậu 8,7m, Công nhận 232m², DTS 1100m²",
+  ketCau: "6 tầng",
+  giaBan: "137 tỷ",
+  hopDong: "0 Triệu/tháng",
+  huong: "Tây Bắc",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Tô Hiến Thành với Thành Thái",
+  allPhoto: ["38.1.jpg","38.2.jpg","38.3.jpg","38.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "39",
+  proName: "NHÀ MẶT PHAN XÍCH LONG",
+  title: "169-171 Phan Xích Long",
+  address: "169-171 Phan Xích Long, Phường Cầu Kiệu (P.2, Quận PN cũ), TP.HCM",
+  dienTich: "Ngang 16m x Dài 16m, Công nhận 256m², DTS 800m²",
+  ketCau: "4 tầng",
+  giaBan: "193 tỷ",
+  hopDong: "300 Triệu/tháng",
+  huong: "Nam",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Phan Xích Long với Phan Đăng Lưu",
+  allPhoto: ["39.1.jpg","39.2.jpg","39.3.jpg","39.4.jpg"],
+  categories: ["Nhà phố","Building"],
+  map: ""
+ },
+ {
+  ma: "40",
+  proName: "BIỆT THỰ TRẦN ĐÌNH XU",
+  title: "35/11 Trần Đình Xu.",
+  address: "35/11 Trần Đình Xu, Phường Cầu Ông Lãnh(P.Ccầu Kho, Quận 1 cũ), TP.HCM",
+  dienTich: "Ngang 14,69 m x Dài 18m, Nở hậu 20m, Công nhận  320,8m², DTS 148,4m²",
+  ketCau: "2 tầng",
+  giaBan: "82 tỷ",
+  hopDong: "80 Triệu/tháng",
+  huong: "Tây Nam",
+  phapLy: "Cá nhân",
+  viTri: "Giữa đường Trần Đình Xu với Nguyễn Cư Trinh",
+  allPhoto: ["40.1.jpg","40.2.jpg","40.3.jpg","40.4.jpg"],
+  categories: ["Nhà phố","Biệt thự"],
+  map: ""
  },
 ]
 
@@ -426,4 +682,8 @@ const dataSlice = createSlice({
 export const { updateLogin, updateOverlay, updateSelectedCategory } =
   dataSlice.actions;
 export default dataSlice.reducer;
+
+
+
+
 
